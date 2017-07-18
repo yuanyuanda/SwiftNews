@@ -15,10 +15,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let bar = UINavigationBar.appearance()
+        bar.tintColor = UIColor.black
+        bar.titleTextAttributes = [NSFontAttributeName : UIFont.systemFont(ofSize: 15), NSForegroundColorAttributeName : UIColor.black]
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+//        let nav = UINavigationController(rootViewController: RACRegisterViewController())
+        window?.rootViewController = MainTabbarController()
+        
         return true
     }
 
+    // 首先要明确一点: swift里面是没有宏定义的概念
+    // 自定义内容输入格式: 文件名[行号]函数名: 输入内容
+    // 需要在info.plist的other swift flag的Debug中添加DEBUG
+    func ALinLog<T>(_ message: T, fileName: String = #file, lineNum: Int = #line, funcName: String = #function){
+        #if DEBUG
+            print("\((fileName as NSString).lastPathComponent)[\(lineNum)] \(funcName): \(message)")
+        #endif
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

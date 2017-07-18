@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC26ACE31F189FC4009F472A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26ACE21F189FC4009F472A /* AppDelegate.swift */; };
-		FC26ACE51F189FC4009F472A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26ACE41F189FC4009F472A /* ViewController.swift */; };
+		D26B48BFCE299C643E137E67 /* Pods_HotNewsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA984696B46FA2DB8711E2E /* Pods_HotNewsSwift.framework */; };
 		FC26ACE81F189FC4009F472A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC26ACE61F189FC4009F472A /* Main.storyboard */; };
 		FC26ACEA1F189FC4009F472A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC26ACE91F189FC4009F472A /* Assets.xcassets */; };
 		FC26ACED1F189FC4009F472A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC26ACEB1F189FC4009F472A /* LaunchScreen.storyboard */; };
 		FC26ACF81F189FC4009F472A /* HotNewsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26ACF71F189FC4009F472A /* HotNewsSwiftTests.swift */; };
 		FC26AD031F189FC4009F472A /* HotNewsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD021F189FC4009F472A /* HotNewsSwiftUITests.swift */; };
+		FC26AD141F18B51E009F472A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD131F18B51E009F472A /* AppDelegate.swift */; };
+		FC26AD201F18B662009F472A /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD1A1F18B662009F472A /* BaseModel.swift */; };
+		FC26AD211F18B662009F472A /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD1B1F18B662009F472A /* BaseTableViewController.swift */; };
+		FC26AD221F18B662009F472A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD1C1F18B662009F472A /* BaseView.swift */; };
+		FC26AD231F18B662009F472A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD1D1F18B662009F472A /* BaseViewController.swift */; };
+		FC26AD241F18B662009F472A /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD1E1F18B662009F472A /* MainTabbarController.swift */; };
+		FC26AD251F18B662009F472A /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD1F1F18B662009F472A /* NavigationViewController.swift */; };
+		FC26AD271F18B8D3009F472A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD261F18B8D3009F472A /* HomeViewController.swift */; };
+		FC26AD291F18B924009F472A /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD281F18B924009F472A /* VideoViewController.swift */; };
+		FC26AD2B1F18B931009F472A /* HeadLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD2A1F18B931009F472A /* HeadLineViewController.swift */; };
+		FC26AD2D1F18B93A009F472A /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26AD2C1F18B93A009F472A /* MineViewController.swift */; };
+		FC26ADEB1F18C770009F472A /* BaseConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26ADEA1F18C770009F472A /* BaseConst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		156AC9568135968DA5B9F749 /* Pods-HotNewsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotNewsSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotNewsSwift/Pods-HotNewsSwift.release.xcconfig"; sourceTree = "<group>"; };
+		4FA984696B46FA2DB8711E2E /* Pods_HotNewsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotNewsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFEBCE915CF932D63F33B54 /* Pods-HotNewsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotNewsSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotNewsSwift/Pods-HotNewsSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B231A2BBF36B7D0AC68AB297 /* Pods_HotNewsSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotNewsSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB940797442297D775563BA /* Pods_HotNewsSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotNewsSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC26ACDF1F189FC4009F472A /* HotNewsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotNewsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC26ACE21F189FC4009F472A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC26ACE41F189FC4009F472A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC26ACE71F189FC4009F472A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC26ACE91F189FC4009F472A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC26ACEC1F189FC4009F472A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,18 @@
 		FC26ACFE1F189FC4009F472A /* HotNewsSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotNewsSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC26AD021F189FC4009F472A /* HotNewsSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotNewsSwiftUITests.swift; sourceTree = "<group>"; };
 		FC26AD041F189FC4009F472A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC26AD131F18B51E009F472A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC26AD1A1F18B662009F472A /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		FC26AD1B1F18B662009F472A /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		FC26AD1C1F18B662009F472A /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		FC26AD1D1F18B662009F472A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FC26AD1E1F18B662009F472A /* MainTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		FC26AD1F1F18B662009F472A /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		FC26AD261F18B8D3009F472A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC26AD281F18B924009F472A /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		FC26AD2A1F18B931009F472A /* HeadLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadLineViewController.swift; sourceTree = "<group>"; };
+		FC26AD2C1F18B93A009F472A /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		FC26ADEA1F18C770009F472A /* BaseConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseConst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26B48BFCE299C643E137E67 /* Pods_HotNewsSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43B5148DFCC41F46E9FB24D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BFEBCE915CF932D63F33B54 /* Pods-HotNewsSwift.debug.xcconfig */,
+				156AC9568135968DA5B9F749 /* Pods-HotNewsSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFCC1C657059AE1C77EFC9B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA984696B46FA2DB8711E2E /* Pods_HotNewsSwift.framework */,
+				B231A2BBF36B7D0AC68AB297 /* Pods_HotNewsSwiftTests.framework */,
+				DFB940797442297D775563BA /* Pods_HotNewsSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC26ACD61F189FC4009F472A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				FC26ACF61F189FC4009F472A /* HotNewsSwiftTests */,
 				FC26AD011F189FC4009F472A /* HotNewsSwiftUITests */,
 				FC26ACE01F189FC4009F472A /* Products */,
+				43B5148DFCC41F46E9FB24D2 /* Pods */,
+				BFCC1C657059AE1C77EFC9B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +145,8 @@
 		FC26ACE11F189FC4009F472A /* HotNewsSwift */ = {
 			isa = PBXGroup;
 			children = (
-				FC26ACE21F189FC4009F472A /* AppDelegate.swift */,
-				FC26ACE41F189FC4009F472A /* ViewController.swift */,
+				FC26AD101F18B51E009F472A /* Classes */,
+				FC26AD111F18B51E009F472A /* Others */,
 				FC26ACE61F189FC4009F472A /* Main.storyboard */,
 				FC26ACE91F189FC4009F472A /* Assets.xcassets */,
 				FC26ACEB1F189FC4009F472A /* LaunchScreen.storyboard */,
@@ -125,6 +173,88 @@
 			path = HotNewsSwiftUITests;
 			sourceTree = "<group>";
 		};
+		FC26AD101F18B51E009F472A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC26AD191F18B609009F472A /* Commons */,
+				FC26AD161F18B5DC009F472A /* Home */,
+				FC26AD181F18B5DC009F472A /* Video */,
+				FC26AD151F18B5DC009F472A /* HeadLine */,
+				FC26AD171F18B5DC009F472A /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FC26AD111F18B51E009F472A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FC26ADE91F18C75B009F472A /* Config */,
+				FC26AD121F18B51E009F472A /* Appdelegate */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		FC26AD121F18B51E009F472A /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FC26AD131F18B51E009F472A /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		FC26AD151F18B5DC009F472A /* HeadLine */ = {
+			isa = PBXGroup;
+			children = (
+				FC26AD2A1F18B931009F472A /* HeadLineViewController.swift */,
+			);
+			path = HeadLine;
+			sourceTree = "<group>";
+		};
+		FC26AD161F18B5DC009F472A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC26AD261F18B8D3009F472A /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC26AD171F18B5DC009F472A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				FC26AD2C1F18B93A009F472A /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		FC26AD181F18B5DC009F472A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				FC26AD281F18B924009F472A /* VideoViewController.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		FC26AD191F18B609009F472A /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				FC26AD1A1F18B662009F472A /* BaseModel.swift */,
+				FC26AD1B1F18B662009F472A /* BaseTableViewController.swift */,
+				FC26AD1C1F18B662009F472A /* BaseView.swift */,
+				FC26AD1D1F18B662009F472A /* BaseViewController.swift */,
+				FC26AD1E1F18B662009F472A /* MainTabbarController.swift */,
+				FC26AD1F1F18B662009F472A /* NavigationViewController.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		FC26ADE91F18C75B009F472A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FC26ADEA1F18C770009F472A /* BaseConst.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC26AD071F189FC4009F472A /* Build configuration list for PBXNativeTarget "HotNewsSwift" */;
 			buildPhases = (
+				4BBF7F94E5C26FB90D4BC2D9 /* [CP] Check Pods Manifest.lock */,
 				FC26ACDB1F189FC4009F472A /* Sources */,
 				FC26ACDC1F189FC4009F472A /* Frameworks */,
 				FC26ACDD1F189FC4009F472A /* Resources */,
+				98528823BDB4E5BEC1009ED6 /* [CP] Embed Pods Frameworks */,
+				FF3C2F19F139CFB231666604 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +387,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BBF7F94E5C26FB90D4BC2D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98528823BDB4E5BEC1009ED6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotNewsSwift/Pods-HotNewsSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3C2F19F139CFB231666604 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotNewsSwift/Pods-HotNewsSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC26ACDB1F189FC4009F472A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC26ACE51F189FC4009F472A /* ViewController.swift in Sources */,
-				FC26ACE31F189FC4009F472A /* AppDelegate.swift in Sources */,
+				FC26AD231F18B662009F472A /* BaseViewController.swift in Sources */,
+				FC26ADEB1F18C770009F472A /* BaseConst.swift in Sources */,
+				FC26AD2D1F18B93A009F472A /* MineViewController.swift in Sources */,
+				FC26AD211F18B662009F472A /* BaseTableViewController.swift in Sources */,
+				FC26AD291F18B924009F472A /* VideoViewController.swift in Sources */,
+				FC26AD241F18B662009F472A /* MainTabbarController.swift in Sources */,
+				FC26AD2B1F18B931009F472A /* HeadLineViewController.swift in Sources */,
+				FC26AD271F18B8D3009F472A /* HomeViewController.swift in Sources */,
+				FC26AD201F18B662009F472A /* BaseModel.swift in Sources */,
+				FC26AD141F18B51E009F472A /* AppDelegate.swift in Sources */,
+				FC26AD251F18B662009F472A /* NavigationViewController.swift in Sources */,
+				FC26AD221F18B662009F472A /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +601,11 @@
 		};
 		FC26AD081F189FC4009F472A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFEBCE915CF932D63F33B54 /* Pods-HotNewsSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HotNewsSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyy.HotNewsSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +615,11 @@
 		};
 		FC26AD091F189FC4009F472A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156AC9568135968DA5B9F749 /* Pods-HotNewsSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HotNewsSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyy.HotNewsSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +700,7 @@
 				FC26AD091F189FC4009F472A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC26AD0A1F189FC4009F472A /* Build configuration list for PBXNativeTarget "HotNewsSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +709,7 @@
 				FC26AD0C1F189FC4009F472A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC26AD0D1F189FC4009F472A /* Build configuration list for PBXNativeTarget "HotNewsSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +718,7 @@
 				FC26AD0F1F189FC4009F472A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
